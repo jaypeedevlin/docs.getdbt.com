@@ -14,7 +14,7 @@ Native support for restarting scheduled runs from point of failure is currently 
 
 `dbt retry` re-executes the last `dbt` command from the node point of failure. If the previously executed `dbt` command was successful, `retry` will finish as `no operation`. 
 
-Retry works with the following commands:
+Retry works to retry after the execution of the following commands:
 
 - [`build`](/reference/commands/build)
 - [`compile`](/reference/commands/compile)
